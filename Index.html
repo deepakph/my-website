@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapil Kennel Food and Dog Grooming Centre</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Kapil Kennel Food and Dog Grooming Centre</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Kapil Kennel</h2>
+    <p>Your one-stop solution for dog food and grooming services. Open 24 hours!</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Dog 1">
+      <img src="image2.jpg" alt="Dog 2">
+      <img src="image3.jpg" alt="Dog 3">
+      <!-- Add more images as needed -->
+    </div>
+    <input type="file" id="upload" accept="image/*">
+    <button onclick="uploadImage()">Upload Image</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Address: G-7, I Sector, West Block, Adharshila, Awadhpuri, Bhopal, Madhya Pradesh, 462000</p>
+    <p>Contact: +91-7999457817 | Open 24 Hours</p>
+    <p>Signature: <em>Deepak WebDesign</em></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
